@@ -111,9 +111,8 @@ p {
   }
 
   .button {
-    display: block;
     text-align: center;
-    margin: 0 20px;
+    margin: 0 20px !important;
   }
 
   .index-photo {
