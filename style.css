@@ -103,3 +103,22 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+  h2,
+  p {
+    text-align: center;
+  }
+
+  .button {
+    text-align: center;
+  }
+
+  .index-photo {
+    display: none;
+  }
+
+  h1 {
+    font-size: 76px;
+  }
+}
